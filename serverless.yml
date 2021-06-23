@@ -1,0 +1,17 @@
+
+service: my-express-application33
+
+provider:
+  name: aws
+  runtime: nodejs14.x 
+  stage: dev
+  region: us-east-1
+
+functions:
+  app:
+    handler: src/index.handler
+    events:
+      - http:
+           path: /qr
+           method: GET
+           
