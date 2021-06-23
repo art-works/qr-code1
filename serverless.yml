@@ -1,5 +1,5 @@
 
-service: my-express-application33
+service: beta-my-try3
 
 provider:
   name: aws
