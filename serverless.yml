@@ -1,5 +1,5 @@
 
-service: beta-my-try3
+service: qrcodee
 
 provider:
   name: aws

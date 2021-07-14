@@ -1,4 +1,4 @@
-name: qr-code1
+name: qrcodetest
 
 on:
   push:
